@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Diseño Gráfico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Nombre del Diseñador Gráfico</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio">
+        <div class="container">
+            <h2>Bienvenido a mi Portfolio</h2>
+            <p>Aquí podrás ver algunos de mis trabajos recientes en diseño gráfico.</p>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="proyecto">
+                <img src="images/proyecto1.jpg" alt="Proyecto 1">
+                <h3>Nombre del Proyecto 1</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="proyecto">
+                <img src="images/proyecto2.jpg" alt="Proyecto 2">
+                <h3>Nombre del Proyecto 2</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <!-- Agrega más proyectos según sea necesario -->
+        </div>
+    </section>
+
+    <section id="sobre-mi">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <p>Texto sobre tu experiencia, habilidades y pasión por el diseño gráfico.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></li>
+                <li>Teléfono: <a href="tel:+1234567890">+1234567890</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/tuperfil" target="_blank">Perfil en LinkedIn</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
